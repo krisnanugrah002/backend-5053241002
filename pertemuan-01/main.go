@@ -28,7 +28,8 @@ func Sapa(nama string) string {
 // string siap cetak (lihat contoh format di SOAL.md).
 func CetakInfo(nama string) string {
 
-	return fmt.Sprintf("%s\n Nama: %s\nNRP: %s\n", runtime.Version(), nama, NRP)
+	return fmt.Sprintf("Nama: %s\nNRP: %s\n%s\n%s", nama, NRP, runtime.Version(), Sapa(nama))
+
 }
 
 func main() {
