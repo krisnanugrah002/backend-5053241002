@@ -27,15 +27,16 @@ Kalau dosen memperbaiki sesuatu di pertemuan yang sudah dirilis (mis. ada bug di
 Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (lihat `pertemuan-01/SOAL.md`) — heading-nya dicek otomatis, jangan diganti namanya.
 
 ## Identitas
-- Nama: (tulis di sini)
-- NRP: (tulis di sini)
-- Kelas: (tulis di sini)
+- Nama: Krisna Anugrah Arianto Heru Putro
+- NRP: 5053241002
+- Kelas: M
 
 ## Commit vs Push
-(tulis di sini)
+Commit: git commit adalah sebuah aksi dimana aksi tersebut menyimpan perubahan kode secara lokal atau di komputer.
+Push: git push adalah sebuah aksi dimana aksi tersebut "mengunggah" hasil commit ke repository
 
 ## Reproducibility
-(tulis di sini)
+Reproducibility adalah kondisi dimana terdapat perbedaan versi Go diantara anggota tim. Kondisi ini dapat menjadi masalah jika seseorang menjalankan kode Go versi terbaru, namun perangkatnya masih menggunakan Go dengan versi dibawahnya. Hal tersebut dapat menyebabkan kegagalan build, dikarenakan ada beberapa library baru yang belum ada di versi Go lama.
 
 ## Catatan Merge Conflict
 (tulis di sini)
