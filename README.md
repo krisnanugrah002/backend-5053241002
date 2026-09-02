@@ -39,7 +39,7 @@ Push: git push adalah sebuah aksi dimana aksi tersebut "mengunggah" hasil commit
 Reproducibility adalah kondisi dimana terdapat perbedaan versi Go diantara anggota tim. Kondisi ini dapat menjadi masalah jika seseorang menjalankan kode Go versi terbaru, namun perangkatnya masih menggunakan Go dengan versi dibawahnya. Hal tersebut dapat menyebabkan kegagalan build, dikarenakan ada beberapa library baru yang belum ada di versi Go lama.
 
 ## Catatan Merge Conflict
-(tulis di sini)
+Conflict terjadi di fungsi CetakInfo pada file main.go. Conflict tersebut terjadi dikarenakan terdapat fungsi yang sama namun dengan instruksi yang berbeda. Pada branch fitur-sapaan, fungsi CetakInfo menambahkan fungsi Sapa(nama). Sedangkan pada branch main, fungsi CetakInfo telah diubah urutannya. Disini saya menyelesaikan dengan menghapus code dari branch main, sehingga fungsi CetakInfo berasal dari branch fitur-sapaan.
 
 ## Kenapa .gitignore Penting
 (tulis di sini)
